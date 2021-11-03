@@ -8,30 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="app">
-        <p>{{ counter }}</p>
-        <button @click="increment()">+</button>
-        <button @click="decrement()">-</button>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<!--VIEW -> PLANTILLA VUE JS-->
+<div id="app">
+    <p>{{ counter }}</p>
+    <button @click="increment">+</button>
+    <button @click="decrement()">-</button>
+</div>
 
-    <script>
-        var app = new Vue({
-            el: '#app', // CSS SELECTOR -> tubeme.acacha.org/html -> CSS
-            data: {
-                counter: 0
+<!--// MODEL COM EL CONTROLADOR -> VVMM ->-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+<script>
+    var app = new Vue({
+        el: '#app', // CSS SELECTOR -> http://youtube.acacha.org/html
+        data: {
+            counter: 0
+        },
+        methods: {
+            increment() {
+                this.counter++
             },
-            methods: {
-                increment() {
-                    this.counter++
-                },
-                decrement() {
-                    this.counter--
-                }
+            decrement() {
+                this.counter--
             }
-        })
-    </script>
+        }
+    })
+</script>
 
 </body>
 </html>
