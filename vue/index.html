@@ -9,29 +9,19 @@
 </head>
 <body>
 
-<!--VIEW -> PLANTILLA VUE JS-->
 <div id="app">
-    <p>{{ counter }}</p>
-    <button @click="increment">+</button>
-    <button @click="decrement()">-</button>
+    <counter></counter>
 </div>
 
-<!--// MODEL COM EL CONTROLADOR -> VVMM ->-->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
+
 
 <script>
-    var app = new Vue({
-        el: '#app', // CSS SELECTOR -> http://youtube.acacha.org/html
-        data: {
-            counter: 0
-        },
-        methods: {
-            increment() {
-                this.counter++
-            },
-            decrement() {
-                this.counter--
-            }
+    var app = new window.Vue({
+        el: '#app',
+        components: {
+            'counter': window.httpVueLoader('./Counter.vue')
         }
     })
 </script>
