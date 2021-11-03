@@ -8,14 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="counter">0</button>
+    <button id="counter"></button>
     <script>
         const counterBtn = document.getElementById('counter')
 
-        counterBtn.addEventListener('click', function incrementCounter() {
-            const count = Number(counterBtn.innerText) + 1
+        let count = 0
+
+        function render() {
             counterBtn.innerText = count
+        }
+
+        counterBtn.addEventListener('click', function incrementCounter() {
+            count = Number(counterBtn.innerText) + 1
+            render()
         })
+        render()
     </script>
 </body>
 </html>
