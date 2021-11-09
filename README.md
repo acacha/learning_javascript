@@ -6,6 +6,15 @@ Aquest screencast pertany al **Learning Path**
 
 - https://tubeme.acacha.org/javascript
 
+Continguts:
+- Instal·lació de Javascript. Llenguatge interpretat ja disponible als navegadors. Utilitzar Chrome Developer Tools (F12) per executar codi Javascript
+- Hello world amb console.log
+- Manipulació del DOM (Document Object Model) des de Chrome Developer Tools
+- Vanilla Javascript: Javascript sense cap frameworks, sense cap sabor. També s'anomenen sabors als diferents frameworks de Javascript.
+- Manipulació imperativa del DOM, localització i modificació d'element HTML: getElementById i innerText
+- Interacció/Interfície amb l'usuari: crear Event Handlers o Listeners. Com executar codi quan succeixin esdeveniment relacionats amb interaccions amb l'usuari: quan l'usuari fa click en un element o touch per exemple.
+- Casting de String a valors numèrics.
+
 # Objectiu
 
 - Aprendre Javascript
