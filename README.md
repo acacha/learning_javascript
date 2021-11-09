@@ -1,3 +1,7 @@
+# Screencast
+
+- https://www.youtube.com/watch?v=X6Rgdx6WuIg&list=PLyasg1A0hpk1Ew0daOLwgkt02EcZwXrEY&index=3
+
 # Objectiu
 
 - Aprendre Javascript
@@ -11,7 +15,7 @@
 # Passos
 - Installation -> Depèn -> JAVASCRIPT PER A FRONTEND -> amb NodeJs Ionic -> Vue
 - Llenguatge interpretat -> Tenim un interpret incrustat als navegadors
-- Code editor: phpstorm -> webstorm
+- Code editor: phpstorm -> webstorm. També es pot utilitzar Code.
 - Variables
 - Objecte predefinits: Document Object-> DOM
 - Separate Logic form presentation -> MVC -> Model Vista controlador
