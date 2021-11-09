@@ -2,6 +2,10 @@
 
 - https://www.youtube.com/watch?v=X6Rgdx6WuIg&list=PLyasg1A0hpk1Ew0daOLwgkt02EcZwXrEY&index=3
 
+Aquest screencast pertany al **Learning Path**
+
+- https://tubeme.acacha.org/javascript
+
 # Objectiu
 
 - Aprendre Javascript
