@@ -15,7 +15,7 @@ Continguts:
 - Interacció/Interfície amb l'usuari: crear Event Handlers o Listeners. Com executar codi quan succeixin esdeveniment relacionats amb interaccions amb l'usuari: quan l'usuari fa click en un element o touch per exemple.
 - Casting de String a valors numèrics.
 
-Primera versió del comptador:
+Primera versió del comptador, codi imperatiu i Vanilla Javascript:
 
 ```html
 <!doctype html>
@@ -40,6 +40,10 @@ Primera versió del comptador:
 </body>
 </html>
 ```
+
+Concepte de renderització (render)
+- En paradigma declaratiu es responsabilitat nostra i una feina actualitzar el DOM HTML (la Vista) cada cop que es modifica el valor d'alguna variable d'estat Javascript. Aquestes variables les anomenem l'estat del nostre codi o també el Model. 
+- Aplicar **Separation Of Concerns** per evitar **Spaguetti Code**. És a dir no barrejar plantilles amb Codi Javascript i dades d'estat o model de negoci.
 
 # Objectiu
 
