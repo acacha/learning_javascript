@@ -15,6 +15,32 @@ Continguts:
 - Interacció/Interfície amb l'usuari: crear Event Handlers o Listeners. Com executar codi quan succeixin esdeveniment relacionats amb interaccions amb l'usuari: quan l'usuari fa click en un element o touch per exemple.
 - Casting de String a valors numèrics.
 
+Primera versió del comptador:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="counter">0</button>
+    <script>
+        const counterBtn = document.getElementById('counter')
+
+        counterBtn.addEventListener('click', function incrementCounter() {
+            const count = Number(counterBtn.innerText) + 1
+            counterBtn.innerText = count
+        })
+    </script>
+</body>
+</html>
+```
+
 # Objectiu
 
 - Aprendre Javascript
