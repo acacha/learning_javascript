@@ -71,9 +71,8 @@ El seguent pas es veure com ens ajuden els frameworks moderns de Javascript. Uti
 - Plantilles (<template>) Vue. Separation of Concerns, "Model Controlador Vista" on al controlador se l'anomena ModelView o ViewModel -> vm
 - Igual que Laravel Blade utilitza Moustaches {{ }}
 - Instal·lació de Vue dev tools. Atenció hi ha dos versions per Vue 3 i Vue2: https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg
-- Concepte: Reactiu -> VueJS reacciona als canvis de l'estat/model/variables Javascript    
-
-
+- Concepte: Reactiu -> VueJS reacciona als canvis de l'estat/model/variables Javascript . 
+   
 Exemple amb Vue.js:
     
 ```html
@@ -106,13 +105,47 @@ Exemple amb Vue.js:
 </script>
 ```
     
-- Comparació de quantitat de codi a escriure repetitiu (codi boilerplate) entre VueJs i Vanilla Javascript
+- Comparació de quantitat de codi a escriure repetitiu (codi boilerplate) entre VueJs i Vanilla Javascript. 
     
 **WEB COMPONENTS**
     
 - Similar als components amb Laravel Blade. Mateix concepte. També utilitzar web components a Ionic. 
 - Docs: https://vuejs.org/v2/guide/components.html
-- IMPORTANT: tenim sistemes de palntilles per treballar amb Vue -> vue-cli o vite
+- IMPORTANT: tenim sistemes de plantilles per treballar amb Vue -> vue-cli o vite.El video en la seva part final us ensenya com utilitzar ViteJS o Vue cli per tenir una plantilla inicial per treballar amb Vue.
+    
+Component final comptador:
+    
+```html
+<template>
+  <div>
+    <p>{{ counter }}</p>
+    <button @click="increment">+</button>
+    <button @click="decrement()">-</button>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  methods: {
+    increment() {
+      this.counter++
+    },
+    decrement() {
+      this.counter--
+    }
+  }
+}
+</script>
+
+<styles>
+
+</styles>
+```
     
 # Objectiu
 
