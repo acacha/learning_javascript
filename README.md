@@ -73,6 +73,7 @@ El seguent pas es veure com ens ajuden els frameworks moderns de Javascript. Uti
 - Instal·lació de Vue dev tools. Atenció hi ha dos versions per Vue 3 i Vue2: https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg
 - Concepte: Reactiu -> VueJS reacciona als canvis de l'estat/model/variables Javascript    
 
+
 Exemple amb Vue.js:
     
 ```html
@@ -108,8 +109,11 @@ Exemple amb Vue.js:
 - Comparació de quantitat de codi a escriure repetitiu (codi boilerplate) entre VueJs i Vanilla Javascript
     
 **WEB COMPONENTS**
+    
 - Similar als components amb Laravel Blade. Mateix concepte. També utilitzar web components a Ionic. 
-
+- Docs: https://vuejs.org/v2/guide/components.html
+- IMPORTANT: tenim sistemes de palntilles per treballar amb Vue -> vue-cli o vite
+    
 # Objectiu
 
 - Aprendre Javascript
